@@ -15,7 +15,7 @@ public class ConfigUtils {
 
     static {
         try {
-            configFile = new FileInputStream("src/test/resources/application.properties");
+            configFile = new FileInputStream("src/test/java/resources/application.properties");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

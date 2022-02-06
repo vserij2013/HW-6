@@ -1,6 +1,7 @@
 package org.example;
 
 import com.github.javafaker.Faker;
+import db.model.Products;
 import lombok.SneakyThrows;
 import okhttp3.ResponseBody;
 import org.example.DTO.Product;

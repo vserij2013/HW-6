@@ -20,7 +20,7 @@ public class MyBatis {
         SqlSession session = sqlSessionFactory.openSession();
         CategoriesMapper categoriesMapper = session.getMapper(CategoriesMapper.class);
         CategoriesExample example = new CategoriesExample();
-        example.createCriteria().andIdEqualTo(616);
+        example.createCriteria().andIdEqualTo(1);
         example.setOrderByClause("Title");
         List<Categories> list = categoriesMapper.selectByExample(example);
 
